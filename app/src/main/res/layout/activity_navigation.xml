@@ -1,0 +1,165 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Navigation">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <!--<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal">
+            </android.support.v4.view.ViewPager>-->
+
+            <com.playtang.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                custom:pager_animation="Accordion"
+                custom:auto_cycle="true"
+                custom:indicator_visibility="visible"
+                android:background="@drawable/sliderborder"
+                custom:pager_animation_span="1100"
+                android:layout_height="200dp"
+                >
+
+               <!-- <LinearLayout
+                    android:layout_alignParentBottom="false"
+                    android:background_ui="@drawable/customborder"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="true"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/linearLayout">
+                    <Button
+                        android:id="@+id/description"
+                        android:textColor="#ffffff"
+                        android:text="Coming Soon"
+                        android:background_ui="@drawable/background_ui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:clickable="true"
+                        android:textSize="10dp"
+                        />
+                </LinearLayout>-->
+            </com.playtang.library.SliderLayout>
+            <com.playtang.library.Indicators.PagerIndicator
+                android:id="@+id/custom_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                custom:selected_color="#0095BF"
+                custom:unselected_color="#55333333"
+                custom:selected_drawable="@drawable/cricket1"
+                custom:shape="rect"
+                custom:selected_padding_left="5dp"
+                custom:selected_padding_right="5dp"
+                custom:unselected_padding_left="5dp"
+                custom:unselected_padding_right="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                custom:selected_width="6dp"
+                custom:selected_height="6dp"
+                custom:unselected_width="6dp"
+                custom:unselected_height="6dp"
+                android:layout_marginBottom="100dp"
+
+                android:layout_marginLeft="5dp" />
+
+            <!--<ListView xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_below="@+id/slider"
+                android:id="@+id/transformers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />-->
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:showDividers="beginning"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-95dp">
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="3dp"
+                android:background="@color/item_bg"
+                android:layout_alignParentStart="true"
+                android:layout_toEndOf="@+id/latest_listing"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="-60dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/latest_listing"
+                android:textColor="@color/item_bg"
+                android:text="Latest Listings"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:width="300dp"
+                android:singleLine="true"
+                android:gravity="center_horizontal"
+                android:focusableInTouchMode="true"
+                android:layout_gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="3dp"
+                android:background="@color/item_bg"
+                android:layout_alignEnd="@+id/latest_listing"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-60dp" />
+
+           </LinearLayout>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/cricket2"
+                android:scaleType="fitCenter"
+                android:baselineAlignBottom="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:id="@+id/imageView3"
+                android:scaleType="fitCenter"
+                android:baselineAlignBottom="false"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:src="@drawable/swimming"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

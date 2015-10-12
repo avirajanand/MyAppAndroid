@@ -1,0 +1,45 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/activity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar">
+        </include>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
+
+
+                    <FrameLayout
+                        android:id="@+id/activity_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+     </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:scrollbars="vertical"
+        android:background="@drawable/gradient_background">
+
+    </android.support.v7.widget.RecyclerView>
+</android.support.v4.widget.DrawerLayout>

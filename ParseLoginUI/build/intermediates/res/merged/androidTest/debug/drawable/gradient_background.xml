@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><shape>
+
+        <gradient android:angle="90" android:endColor="#3257a0"
+                android:startColor="#082D68" android:type="linear" />
+        </shape></item>
+
+</selector><!-- From: file:/D:/backup_newfolder/Parse/CommonNavigation/ParseLoginUI/src/main/res/drawable/gradient_background.xml --><!-- From: file:/D:/backup_newfolder/Parse/CommonNavigation/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/gradient_background.xml -->

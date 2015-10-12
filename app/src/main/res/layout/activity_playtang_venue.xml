@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.playtang.commonnavigation.PlayTangVenue"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:id="@+id/playtang_venue"
+    android:weightSum="1">
+
+   <!-- <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:layout_weight="0.07"
+        android:progressBackgroundTint="@color/Grey" />-->
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/sports_available"
+        android:layout_weight="0.07"
+        android:hint="@string/com_parse_ui_venue_sports_available_label"
+        />
+    <EditText
+        android:id="@+id/venue_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_venue_input_hint"
+        android:inputType="text"
+         />
+
+    <EditText
+        android:id="@+id/venue_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_venue_address_hint"
+        android:inputType="text"
+        />
+
+
+    <EditText
+        android:id="@+id/venue_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_venue_city_hint"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/venue_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_venue_pin_hint"
+        android:inputType="number"
+        />
+
+
+
+    <EditText
+        android:id="@+id/venue_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_venue_state_hint"
+        />
+
+    <EditText
+        android:id="@+id/venue_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:digits="0123456789+"
+        style="@style/ParseLoginUI.EditText"
+        android:layout_weight="0.07"
+        android:hint="@string/com_parse_ui_venue_contact_hint"
+        />
+
+    <LinearLayout
+                android:id="@+id/parse_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+                android:textColor="@color/textColorPrimary">
+
+                    <Button
+                    android:id="@+id/parse_addvenue_button"
+                    style="@style/ParseLoginUI.Button"
+                    android:layout_weight="0.5"
+                    android:text="@string/com_parse_ui_venue_add_button_label" />
+
+     </LinearLayout>
+</LinearLayout>

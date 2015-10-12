@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Grey">#686868</color>
+    <color name="colorPrimaryDark">#512DA8</color>"
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="windowbg">#FffFff</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="actionbar_text">#18bc9c</color>
+    <color name="item_bg">#18bc9c</color>
+    <color name="primary">#082D68</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+
+
+    <color name="com_parse_ui_parse_login_button">#40CCCCCC</color>
+    <color name="com_parse_ui_parse_login_button_push">#30CCCCCC</color>
+    <color name="com_parse_ui_parse_login_button_focus">#35CCCCCC</color>
+
+    <color name="com_parse_ui_playtang_login_button">#8e18bc9c</color>
+    <color name="com_parse_ui_playtang_login_button_push">#7c18bc9c</color>
+    <color name="com_parse_ui_playtang_login_button_focus">#6a18bc9c</color>
+
+    <color name="com_parse_ui_parse_login_help_button_label">#E0E0E0</color>
+    <color name="com_parse_ui_parse_login_help_button_label_push">#AAAAAA</color>
+    <color name="com_parse_ui_parse_login_help_button_label_focus">#CCCCCC</color>
+
+    <color name="com_parse_ui_parse_login_text_hint">#AAAAAA</color>
+    <color name="com_parse_ui_parse_login_display_text">@android:color/white</color>
+    <color name="com_parse_ui_facebook_login_button">#3B5998</color>
+    <color name="com_parse_ui_facebook_login_button_push">#2E4677</color>
+    <color name="com_parse_ui_facebook_login_button_focus">#304F8B</color>
+    <color name="com_parse_ui_twitter_login_button">#2DAAE2</color>
+    <color name="com_parse_ui_twitter_login_button_push">#2588B5</color>
+    <color name="com_parse_ui_twitter_login_button_focus">#2788BE</color>
+
+    <color name="com_parse_ui_gmail_login_button">#e23612</color>
+    <color name="com_parse_ui_gmail_login_button_push">#e25116</color>
+    <color name="com_parse_ui_gmail_login_button_focus">#e27429</color>
+</resources>
+
+

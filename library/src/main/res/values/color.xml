@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Grey">#686868</color>
+    <color name="colorPrimaryDark">#512DA8</color>"
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="windowbg">#FffFff</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="actionbar_text">#18bc9c</color>
+    <color name="item_bg">#18bc9c</color>
+    <color name="green_transparent">#9618bc9c</color>
+    <color name="primary">#082D68</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+    <color name="transparent">#29ffffff</color>
+</resources>
+
+

@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_main"
+    tools:context=".BaseActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="Search"
+        android:icon="@drawable/action_search"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="300"
+        android:title="Location"
+        android:icon="@drawable/ic_action_place"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <group
+                android:id="@+id/group"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/group_item1"
+                    android:onClick="onGroupItemClick"
+                    android:title="Bangalore"/>
+                <item
+                    android:id="@+id/group_item2"
+                    android:onClick="onGroupItemClick"
+                    android:title="Delhi"/>
+                <item
+                    android:id="@+id/group_item3"
+                    android:onClick="onGroupItemClick"
+                    android:title="Mumbai"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_login"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_person"
+        android:title="Login"
+        android:actionLayout="@color/colorAccent"
+        app:showAsAction="never|withText" />
+
+    <item android:id="@+id/action_settings"
+        android:orderInCategory="200"
+    android:title="@string/action_settings"
+    android:actionLayout="@color/colorAccent"
+    app:showAsAction="never" />
+
+    <item  android:id="@+id/account_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_account"
+        android:icon="@drawable/ic_action_person"
+        android:actionLayout="@color/colorAccent"
+        app:showAsAction="never"/>
+
+    <item  android:id="@+id/add_venue"
+        android:orderInCategory="200"
+        android:title="@string/action_venue"
+        android:icon="@drawable/ic_action_new"
+        android:actionLayout="@color/colorAccent"
+        app:showAsAction="never"
+        />
+
+
+</menu>
